@@ -20,7 +20,7 @@ public class Main {
         }
         idade = Idade();
         System.out.println(dadoAleatorio.elementAt(0) +" "+ dadoAleatorio.elementAt(1) +
-                " é um futebolista brasileiro de "+idade+" anos que atua como " + dadoAleatorio.elementAt(2) +
+                " é um futebolistas brasileiro de "+idade+" anos que atua como " + dadoAleatorio.elementAt(2) +
                 ". Atualmente defende o " + dadoAleatorio.elementAt(3));
     }
 
