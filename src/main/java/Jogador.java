@@ -60,7 +60,7 @@ public class JogadorGerador {
 
         // Constrói o objeto Jogador com os dados do JSON
         return new Jogador(jogadorJson.getString("nome"),
-                jogadorJson.getString("sobrenome"),
+                jogadorJson.getString("sobrenomes"),
                 jogadorJson.getString("posicao"),
                 jogadorJson.getInt("idade"),
                 jogadorJson.getString("clube"));
