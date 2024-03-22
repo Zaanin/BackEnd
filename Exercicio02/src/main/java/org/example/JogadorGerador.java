@@ -33,11 +33,12 @@ public class JogadorGerador {
     }
 
     private String Aleatorio(String[] dados) throws Exception{
-        int min = 0;
-        Random aleatorio = new Random();
-        int valor = aleatorio.nextInt((dados.length - min) + 1) + min;
-        return dados[valor];
+        double aleatorio = Math.random();
+        double numeroMultiplicado = aleatorio * dados.length;
+        int numeroTruncado = (int) Math.floor(numeroMultiplicado);
+        return dados[numeroTruncado];
     }
+
     private int Idade() throws Exception {
         int max = 40 ;
         int min = 17;
